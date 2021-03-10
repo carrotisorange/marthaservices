@@ -110,7 +110,7 @@ class AdsController extends Controller
     public function store(Request $request)
     {
         $user_id = Auth::user()->id;
-        $ads_price_plan = get_option('ads_price_plan');
+         $ads_price_plan = get_option('ads_price_plan');
 
 
         $rules = [
@@ -127,9 +127,9 @@ class AdsController extends Controller
             'longitude'  => 'required',
         ];
 
-        if( $ads_price_plan != 'all_ads_free'){
-            $rules['price_plan'] = 'required';
-        }
+        // if( $ads_price_plan != 'all_ads_free'){
+        //     $rules['price_plan'] = 'required';
+        // }
 
         $this->validate($request, $rules);
 

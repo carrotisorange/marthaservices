@@ -388,7 +388,7 @@
 
 
 
-                        @if(get_option('ads_price_plan') != 'all_ads_free')
+                        {{-- @if(get_option('ads_price_plan') != 'all_ads_free')
 
 
 
@@ -447,7 +447,7 @@
                             </div>
 
 
-                        @endif
+                        @endif --}}
 
 
 
