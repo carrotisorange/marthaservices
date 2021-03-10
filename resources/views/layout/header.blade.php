@@ -62,7 +62,7 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-{{-- <div class="header-nav-top">
+<div class="header-nav-top">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12 ">
@@ -130,7 +130,7 @@
         </div>
     </div>
 
-</div> --}}
+</div>
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
