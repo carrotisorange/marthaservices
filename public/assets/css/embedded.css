@@ -1,0 +1,177 @@
+.embedded-item-thumbnail{
+    padding: 5px;
+    border: 1px solid #2c3e50;
+}
+.embedded-ad-title{
+    background: #2c3e50;
+    padding: 10px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.embedded-ad-title a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.embedded-ads-thumbnail{
+    text-align: center;
+    position: relative;
+}
+.embedded-ads-thumbnail img{
+    width: 100%;
+}
+.modern-img-indicator {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 12px;
+    margin-top: -26px;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+}
+.modern-sale-rent-indicator{
+    background-image: linear-gradient(to bottom, #ff9b22 0%, #ff8c00 100%);
+    background-repeat: repeat-x;
+    color: #fff;
+    font-size: 12px;
+    margin-top: -26px;
+    padding: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Ads post single thumbnail */
+.embedded-item-thumbnail{
+    /*border: 7px solid #f9f9f9;*/
+    margin: 5px 0;
+    text-align: center;
+    position: relative;
+    min-height: 305px;
+    -webkit-transition:all .3s linear;
+    -moz-transition:all .3s linear;
+    -o-transition:all .3s linear;
+    transition:all .3s linear;
+}
+.embedded-box-premium{
+    /*border:7px solid #f8efc0;*/
+    background: #fffcdd;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.5);
+}
+.embedded-box-regular{
+    /*border:7px solid #f9f9f9;*/
+    background: #ffffff;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.5);
+}
+.table.table-responsive.property-box-info {
+    width: 100%;
+}
+.table.table-responsive.property-box-info td {
+    width: 48%;
+    padding: 3px;
+}
+
+/** Ribbon label */
+.ribbon-wrapper-green {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ribbon-green {
+    color: #333;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    position: relative;
+    padding: 4px 0;
+    left: -5px;
+    top: 15px;
+    width: 120px;
+    background-color: #BFDC7A;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+.ribbon-green:before, .ribbon-green:after {
+    content: "";
+    position:absolute;
+}
+.ribbon-green:before {
+    left: 0;
+}
+.ribbon-green:after {
+    right: 0;
+}​,
+ .ribbon-wrapper-red {
+     width: 85px;
+     height: 88px;
+     overflow: hidden;
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+.ribbon-wrapper-red {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ribbon-red {
+    color: #fff;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 4px 0;
+    left: -30px;
+    top: 15px;
+    width: 120px;
+    background-color: #ff0000;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+.ribbon-red:before, .ribbon-red:after {
+    content: "";
+    position:absolute;
+}
+.ribbon-red:before {
+    left: 0;
+}
+.ribbon-red:after {
+    right: 0;
+}​,
+ .btn-details {
+     background-color: #f0ad4e;
+     border-color: #eea236;
+     color: #fff;
+     -moz-user-select: none;
+     background-image: none;
+     border-radius: 4px;
+     cursor: pointer;
+     display: inline-block;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.42857;
+     margin-bottom: 0;
+     padding: 6px 12px;
+     text-align: center;
+     vertical-align: middle;
+     white-space: nowrap;
+     box-shadow: none;
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+ }
