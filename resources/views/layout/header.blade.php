@@ -65,7 +65,7 @@
 <div class="header-nav-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-12 ">
+            <div class="col-md-5 col-sm-12 ">
                 <div class="topContactInfo">
                     <ul class="nav nav-pills">
                         @if(get_option('site_phone_number'))
@@ -89,7 +89,7 @@
                 </div>
 
             </div>
-            <div class="col-md-8 col-sm-12">
+            <div class="col-md-7 col-sm-12">
                 @if(Auth::check())
 
                     <div class="topContactInfo">
